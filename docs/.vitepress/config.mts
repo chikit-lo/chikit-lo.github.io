@@ -10,11 +10,15 @@ export default defineConfig({
     logo: '/home.jpg',
     
     nav: [
-      { text: 'Home', link: '/' },
+      { text: '主页', link: '/' },
       { text: '部署运维', items: [
         { text: 'Docker备忘录', link: '/docker101' },
-        { text: 'VMware配置静态ip', link: '/vmware-config' },
-        { text: 'SSH免密登陆GitHub', link: '/githubssh' }
+        { text: 'Docker配置Elasticsearch', link: '/elasticsearch101' },
+        { text: '修改Docker端口映射参数', link: '/modify-docker-port' },
+        { text: 'MacOS配置SSH免密登陆GitHub', link: '/githubssh' },
+        { text: 'VMware配置虚拟机静态ip地址', link: '/vmware-config' },
+        { text: '部署VuePress到Tomcat服务器', link: '/deploy-vuepress-to-tomcat' },
+        { text: '将博客的http协议更改为https', link: '/https-protocol-config' }
       ]},
       { text: '数据库', items: [
         { text: 'MySQL踩坑记录', link: '/mysql-troblesome' },
@@ -51,6 +55,7 @@ export default defineConfig({
       {
         text: '软件',
         items: [
+          { text: 'Idea设置Live Template', link: '/idea-live-template-settings' },
           { text: '一些个人常用的macOS生产力软件推荐', link: '/useful-mac-app' }
         ]
       },
